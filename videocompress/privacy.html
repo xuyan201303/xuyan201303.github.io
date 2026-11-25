@@ -27,40 +27,51 @@
 <main>
 
 <h1>プライバシーポリシー</h1>
-<p class="date">アプリ「動画圧縮」（iOS）／最終更新日：2026年11月22日</p>
+<p class="date">アプリ「動画圧縮」（iOS・Android）／最終更新日：2026年11月25日</p>
 
 <h2>動画の扱い</h2>
 <ul>
   <li>動画の圧縮は、すべてお使いの端末の中で行います。動画をサーバーにアップロードすることはありません。</li>
   <li>動画は広告のSDKにも渡しません。</li>
-  <li>選んだ動画と圧縮した動画は、作業のあいだアプリの中に一時的に置き、不要になったら削除します。ほかのアプリから「共有」で受け取った動画が開かれないまま1日を過ぎた場合は、次にアプリを起動したときに削除します。</li>
+  <li>選んだ動画と圧縮した動画は、作業のあいだアプリの中に一時的に置き、不要になったら削除します。</li>
+  <li>iOS：ほかのアプリから「共有」で受け取った動画が開かれないまま1日を過ぎた場合は、次にアプリを起動したときに削除します。</li>
+  <li>Android：選んだ動画は、アプリ専用のキャッシュ領域に一時的にコピーして圧縮します。一時的なファイルは、次の動画を選んだとき、結果を破棄したとき、および次にアプリを起動したときに削除します。まとめて圧縮では、順番が来た動画だけをコピーします。ほかのアプリから「共有」で受け取った動画は、アプリで開いたときにコピーし、開かなかった場合は何も残りません。</li>
+  <li>Android：「保存」を押すと、圧縮した動画を端末の「Movies/VideoCompress」フォルダに保存します。保存した動画は、ギャラリーなどのアプリから見ることができます。</li>
+  <li>Android：圧縮している間、進み具合を示す通知（アプリを閉じても圧縮を続けるためのもの）を端末に表示します。このアプリは通知の許可を求めないため、Android 13 以降では通知の一覧ではなく、実行中のアプリの一覧に表示されます。</li>
 </ul>
 
 <h2>「写真」へのアクセス</h2>
 <ul>
-  <li>圧縮した動画を「写真」に保存するときに、追加の許可をお願いします。</li>
-  <li>「大きい動画を探す」を使うときにだけ、「写真」の読み取りの許可をお願いします。容量の大きい動画の一覧を表示し、選んだ動画を圧縮し、ご希望の場合は保存後に元の動画を削除するために使います（削除の前には端末の確認画面が表示されます）。</li>
-  <li>「写真」の内容を端末の外に送ることはありません。</li>
+  <li>iOS：圧縮した動画を「写真」に保存するときに、追加の許可をお願いします。</li>
+  <li>iOS：「大きい動画を探す」を使うときにだけ、「写真」の読み取りの許可をお願いします。容量の大きい動画の一覧を表示し、選んだ動画を圧縮し、ご希望の場合は保存後に元の動画を削除するために使います（削除の前には端末の確認画面が表示されます）。</li>
+  <li>Android：動画は、Androidの写真選択ツール（フォトピッカー）またはファイルの選択画面で選びます。アプリが読み取るのは、そこで選んだ動画だけです。写真や動画の読み取りの許可は求めません。</li>
+  <li>Android：動画の保存に許可は必要ありません（Android 10 以降）。Android 9 以前では、保存するときにストレージへの書き込みの許可をお願いします。</li>
+  <li>Android版には、「大きい動画を探す」と、元の動画を削除する機能はありません。</li>
+  <li>「写真」や端末内の動画の内容を端末の外に送ることはありません。</li>
 </ul>
 
 <h2>位置情報</h2>
 <ul>
   <li>このアプリが端末の位置情報を取得することはありません。</li>
-  <li>元の動画に撮影場所の情報が含まれている場合、「写真」に保存した圧縮後の動画にもその情報が残ります。共有や「ファイル」への保存で渡すファイルに含めるかどうかは、設定の「圧縮した動画に位置情報を含める」で選べます。</li>
+  <li>iOS：元の動画に撮影場所の情報が含まれている場合、「写真」に保存した圧縮後の動画にもその情報が残ります。共有や「ファイル」への保存で渡すファイルに含めるかどうかは、設定の「圧縮した動画に位置情報を含める」で選べます。</li>
+  <li>Android：設定の「圧縮した動画に位置情報を含める」がオフのとき（初期設定）は、圧縮後の動画に撮影場所の情報は含まれません。端末に保存した動画にも、共有するファイルにも含まれません。オンのときは、元の動画に撮影場所の情報があれば、保存した動画と共有するファイルの両方に含まれます。</li>
 </ul>
 
 <h2>広告（無料版）</h2>
 <ul>
   <li>無料版では、ホーム画面と圧縮中の画面に広告が表示されます。Pro版では表示されません。</li>
   <li>広告はGoogle（AdMob）が配信します。広告の配信と効果の測定のため、GoogleのSDKがIPアドレス（およびそこから推定されるおおよその地域）、端末とアプリに関する情報、広告の表示やタップの状況などを処理します。詳しくは<a href="https://policies.google.com/technologies/partner-sites">Googleによる情報の利用について</a>をご覧ください。</li>
-  <li>このアプリは「トラッキング」の許可を求めず、広告識別子（IDFA）を使用しません。</li>
+  <li>iOS：このアプリは「トラッキング」の許可を求めず、広告識別子（IDFA）を使用しません。</li>
+  <li>Android：広告にはGoogleのMobile Ads SDKと、同意の確認のためのUser Messaging Platform SDKを使っています。Googleの説明によると、Mobile Ads SDKは、広告・分析・不正行為の防止のために、次の情報を自動的に収集し共有します：IPアドレス（端末のおおよその位置の推定に使われることがあります）、アプリの起動・タップ・動画の視聴などの操作の情報、アプリとSDKの動作に関する診断情報（起動時間、応答しなくなる頻度、電力の使用量など）、端末やアカウントの識別子（Androidの広告ID、アプリセットID、該当する場合は端末でログインしているアカウントに関連する識別子）。これらはTLSで暗号化して送信されます。このアプリは位置情報の許可を求めません。</li>
+  <li>Android：広告IDは、Androidの設定（プライバシー ＞ 広告）でリセットまたは削除できます。</li>
   <li>法令で同意が必要な地域では、Googleの同意画面が表示されることがあります。その地域では、設定の「広告のプライバシー設定」から選択をあとで変更できます。</li>
   <li>不適切な広告を見つけた場合は、下記のお問い合わせ先までお知らせください。</li>
 </ul>
 
 <h2>購入</h2>
 <ul>
-  <li>Pro版の購入と購入の復元は、Appleのアプリ内課金で行います。支払い情報はAppleが扱い、このアプリが受け取ることはありません。</li>
+  <li>iOS：Pro版の購入と購入の復元は、Appleのアプリ内課金で行います。支払い情報はAppleが扱い、このアプリが受け取ることはありません。</li>
+  <li>Android：Pro版の購入と購入の復元は、Google Playの課金システムで行います。支払い情報はGoogleが扱い、このアプリが受け取ることはありません。このアプリがGoogle Playから受け取るのは、Pro版を購入済みかどうかの情報だけです。このアプリ自身のサーバーはなく、その情報をほかへ送ることはありません。</li>
 </ul>
 
 <h2>このアプリ自身が集めない情報</h2>
@@ -76,40 +87,51 @@
 
 <h1 lang="en">Privacy Policy</h1>
 <div lang="en">
-<p class="date">“動画圧縮” (Video Compress) for iOS / Last updated: November 22, 2026</p>
+<p class="date">“動画圧縮” (Video Compress) for iOS and Android / Last updated: November 25, 2026</p>
 
 <h3>Your videos</h3>
 <ul>
   <li>Videos are compressed entirely on your device. They are never uploaded to a server.</li>
   <li>Videos are not given to the ad SDK either.</li>
-  <li>The video you choose and the compressed result are kept inside the app only while you work on them, and are deleted when no longer needed. A video received from another app through “Share” that has waited unopened for more than a day is deleted the next time the app starts.</li>
+  <li>The video you choose and the compressed result are kept inside the app only while you work on them, and are deleted when no longer needed.</li>
+  <li>iOS: a video received from another app through “Share” that has waited unopened for more than a day is deleted the next time the app starts.</li>
+  <li>Android: the video you choose is copied into the app’s own cache for compressing. The temporary files are deleted when you choose the next video, when you discard a result, and the next time the app starts. In a batch, a video is copied only when its turn comes. A video received from another app through “Share” is copied when you open it in the app; if you do not, nothing is kept.</li>
+  <li>Android: “Save” puts the compressed video into the device’s “Movies/VideoCompress” folder, where gallery apps can show it.</li>
+  <li>Android: while a video is being compressed, the device shows a notification with the progress (it is what lets the compression continue after you leave the app). The app does not ask for permission to post notifications, so on Android 13 and later it appears in the list of running apps rather than among your notifications.</li>
 </ul>
 
 <h3>Access to Photos</h3>
 <ul>
-  <li>The app asks to add to Photos when you save a compressed video.</li>
-  <li>The app asks to read Photos only when you use “Find large videos”: to list large videos, to compress the one you choose, and, if you ask for it, to delete the original after the compressed copy is saved (the system asks you to confirm before anything is deleted).</li>
-  <li>Nothing from Photos is sent off your device.</li>
+  <li>iOS: the app asks to add to Photos when you save a compressed video.</li>
+  <li>iOS: the app asks to read Photos only when you use “Find large videos”: to list large videos, to compress the one you choose, and, if you ask for it, to delete the original after the compressed copy is saved (the system asks you to confirm before anything is deleted).</li>
+  <li>Android: you choose videos in Android’s photo picker or in the file browser. The app reads only the videos you choose there and asks for no permission to read your photos or videos.</li>
+  <li>Android: saving a video needs no permission (Android 10 and later). On Android 9 and earlier the app asks for permission to write to storage when you save.</li>
+  <li>The Android version has no “Find large videos” and never deletes an original video.</li>
+  <li>Nothing from Photos or from the videos on your device is sent off your device.</li>
 </ul>
 
 <h3>Location</h3>
 <ul>
   <li>The app never reads your device’s location.</li>
-  <li>When the original video carries the place where it was recorded, the compressed copy saved to Photos keeps it. Whether a file you share or save to Files includes it is up to the setting for including the location in compressed videos.</li>
+  <li>iOS: when the original video carries the place where it was recorded, the compressed copy saved to Photos keeps it. Whether a file you share or save to Files includes it is up to the setting for including the location in compressed videos.</li>
+  <li>Android: while the setting for including the location in compressed videos is off (as it is at first), the compressed video carries no recording place, neither the copy saved to the device nor a file you share. When it is on and the original carries the place, both the saved copy and a shared file include it.</li>
 </ul>
 
 <h3>Ads (free version)</h3>
 <ul>
   <li>The free version shows ads on the home screen and on the screen shown while compressing. Pro shows none.</li>
   <li>Ads are served by Google (AdMob). To show ads and measure them, Google’s SDK processes information such as your IP address (and the approximate region derived from it), information about your device and the app, and how ads are shown and tapped. See <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a>.</li>
-  <li>The app does not ask for permission to track you and does not use the advertising identifier (IDFA).</li>
+  <li>iOS: the app does not ask for permission to track you and does not use the advertising identifier (IDFA).</li>
+  <li>Android: ads use Google’s Mobile Ads SDK, with Google’s User Messaging Platform SDK for consent. According to Google, the Mobile Ads SDK automatically collects and shares the following for advertising, analytics and fraud prevention: the IP address (which may be used to estimate the device’s general location), user product interactions such as app launches, taps and video views, diagnostic information about how the app and the SDK perform (such as launch time, hang rate and energy use), and device and account identifiers (the Android advertising ID, the app set ID and, where applicable, other identifiers related to accounts signed in on the device). This data is encrypted in transit with TLS. The app does not ask for permission to use your location.</li>
+  <li>Android: you can reset or delete the advertising ID in Android’s settings (Privacy &gt; Ads).</li>
   <li>Where the law requires consent, Google’s consent form may be shown. In those regions you can change your choice later in the app’s settings under “Ad privacy settings”.</li>
   <li>If you see an inappropriate ad, please let us know at the contact below.</li>
 </ul>
 
 <h3>Purchases</h3>
 <ul>
-  <li>Buying and restoring Pro go through Apple’s in-app purchase. Apple handles the payment; the app never receives your payment details.</li>
+  <li>iOS: buying and restoring Pro go through Apple’s in-app purchase. Apple handles the payment; the app never receives your payment details.</li>
+  <li>Android: buying and restoring Pro go through Google Play’s billing system. Google handles the payment; the app never receives your payment details. All the app learns from Google Play is whether Pro has been bought. The app has no server of its own and passes that on to no one.</li>
 </ul>
 
 <h3>What the app itself does not collect</h3>
