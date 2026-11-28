@@ -27,7 +27,7 @@
 <main>
 
 <h1>プライバシーポリシー</h1>
-<p class="date">アプリ「動画圧縮」（iOS・Android）／最終更新日：2026年11月28日</p>
+<p class="date">アプリ「動画圧縮」（iOS・Android）／最終更新日：2026年11月29日</p>
 
 <h2>動画の扱い</h2>
 <ul>
@@ -38,14 +38,18 @@
   <li>Android：選んだ動画は、アプリ専用のキャッシュ領域に一時的にコピーして圧縮します。一時的なファイルは、次の動画を選んだとき、結果を破棄したとき、および次にアプリを起動したときに削除します。まとめて圧縮では、順番が来た動画だけをコピーします。ほかのアプリから「共有」で受け取った動画は、アプリで開いたときにコピーし、開かなかった場合は何も残りません。</li>
   <li>Android：「保存」を押すと、圧縮した動画を端末の「Movies/VideoCompress」フォルダに保存します。保存した動画は、ギャラリーなどのアプリから見ることができます。</li>
   <li>Android：圧縮している間、進み具合を示す通知（アプリを閉じても圧縮を続けるためのもの）を端末に表示します。このアプリは通知の許可を求めないため、Android 13 以降では通知の一覧ではなく、実行中のアプリの一覧に表示されます。</li>
+  <li>写真の圧縮も、すべてお使いの端末の中で行います。写真をサーバーにアップロードすることはなく、広告のSDKにも渡しません。</li>
+  <li>選んだ写真のコピーと圧縮した写真は、作業のあいだアプリの中に一時的に置き、別の写真を選び直したとき、写真の圧縮を終えてホームに戻ったとき、および次にアプリを起動したときに削除します。</li>
+  <li>写真の圧縮で「保存」を押すと、圧縮した写真を新しい写真として保存します（iOS：「写真」、Android：端末の「Pictures/VideoCompress」フォルダ）。元の写真は変更も削除もしません。</li>
 </ul>
 
 <h2>「写真」へのアクセス</h2>
 <ul>
-  <li>iOS：圧縮した動画を「写真」に保存するときに、追加の許可をお願いします。</li>
+  <li>iOS：圧縮した動画や写真を「写真」に保存するときに、追加の許可をお願いします。</li>
+  <li>iOS：圧縮する写真は、iOSの写真の選択画面で選びます。アプリが受け取るのはそこで選んだ写真だけで、「写真」の読み取りの許可は求めません。</li>
   <li>iOS：「大きい動画を探す」を使うときにだけ、「写真」の読み取りの許可をお願いします。容量の大きい動画の一覧を表示し、選んだ動画を圧縮し、ご希望の場合は保存後に元の動画を削除するために使います（削除の前には端末の確認画面が表示されます）。</li>
-  <li>Android：動画は、Androidの写真選択ツール（フォトピッカー）またはファイルの選択画面で選びます。アプリが読み取るのは、そこで選んだ動画だけです。写真や動画の読み取りの許可は求めません。</li>
-  <li>Android：動画の保存に許可は必要ありません（Android 10 以降）。Android 9 以前では、保存するときにストレージへの書き込みの許可をお願いします。</li>
+  <li>Android：動画は、Androidの写真選択ツール（フォトピッカー）またはファイルの選択画面で、圧縮する写真は写真選択ツールで選びます。アプリが読み取るのは、そこで選んだ動画と写真だけです。写真や動画の読み取りの許可は求めません。</li>
+  <li>Android：動画や写真の保存に許可は必要ありません（Android 10 以降）。Android 9 以前では、保存するときにストレージへの書き込みの許可をお願いします。</li>
   <li>Android版には、「大きい動画を探す」と、元の動画を削除する機能はありません。</li>
   <li>「写真」や端末内の動画の内容を端末の外に送ることはありません。</li>
 </ul>
@@ -55,6 +59,7 @@
   <li>このアプリが端末の位置情報を取得することはありません。</li>
   <li>iOS：元の動画に撮影場所の情報が含まれている場合、「写真」に保存した圧縮後の動画にもその情報が残ります。共有や「ファイル」への保存で渡すファイルに含めるかどうかは、設定の「圧縮した動画に位置情報を含める」で選べます。</li>
   <li>Android：設定の「圧縮した動画に位置情報を含める」がオフのとき（初期設定）は、圧縮後の動画に撮影場所の情報は含まれません。端末に保存した動画にも、共有するファイルにも含まれません。オンのときは、元の動画に撮影場所の情報があれば、保存した動画と共有するファイルの両方に含まれます。</li>
+  <li>写真（iOS・Android）：設定の「圧縮した動画に位置情報を含める」がオフのとき（初期設定）は、圧縮した写真から撮影場所の情報（EXIFのGPS）を取り除きます。オンのときは、元の写真に撮影場所の情報があれば、そのまま残ります。</li>
 </ul>
 
 <h2>広告（無料版）</h2>
@@ -72,9 +77,9 @@
 <h2>利用状況の統計（Firebase Analytics）</h2>
 <ul>
   <li>Android：アプリを改善するため、GoogleのFirebase Analytics（Google Analytics for Firebase）を使って、利用状況の統計を集めています。iOS版では、現在この統計は集めていません。</li>
-  <li>集めるもの：圧縮・トリミング・MP4への変換を始めた回数とその結果（成功したか失敗したか、失敗の種類）、使った機能と設定の種類（サイズの選び方、形式）、どのくらい小さくなったか（%）、動画の長さのおおよその区分、保存した回数、Pro版を購入したことと、どの画面から購入したか。</li>
+  <li>集めるもの：圧縮・トリミング・MP4への変換を始めた回数とその結果（成功したか失敗したか、失敗の種類）、使った機能と設定の種類（サイズの選び方、形式）、どのくらい小さくなったか（%）、動画の長さのおおよその区分、保存した回数、写真を圧縮した回数・枚数・選んだサイズ、Pro版を購入したことと、どの画面から購入したか、Proの案内が表示されたときに選んだ操作（広告を見る・購入・キャンセル）と、広告を最後まで見られたかどうか。</li>
   <li>Firebaseが自動的に集めるもの：アプリの起動・画面の表示・利用時間などの利用状況、アプリごとに割り当てられる識別子（アプリ インスタンスID）、Androidの広告ID、端末とアプリに関する情報（機種、OSのバージョン、言語、アプリのバージョンなど）、IPアドレスから推定されるおおよその地域、アプリ内購入の情報（商品のID・名前・価格）。</li>
-  <li>集めないもの：動画そのもの、ファイル名、ファイルの場所、位置情報（端末の位置も、動画に記録された撮影場所も）。</li>
+  <li>集めないもの：動画や写真そのもの、ファイル名、ファイルの場所、位置情報（端末の位置も、動画に記録された撮影場所も）。</li>
   <li>用途：どの機能がどのくらい使われているか、どこで失敗しているかを知り、アプリを改善するためです。</li>
   <li>保存期間：14か月です。</li>
   <li>法令で同意が必要な地域（欧州など）：同意をいただくまで、この統計は集めません。同意画面で同意しなかった場合も集めません。選択は、設定の「広告のプライバシー設定」（Pro版では「プライバシー設定」）からいつでも変更できます。</li>
@@ -100,7 +105,7 @@
 
 <h1 lang="en">Privacy Policy</h1>
 <div lang="en">
-<p class="date">“動画圧縮” (Video Compress) for iOS and Android / Last updated: November 28, 2026</p>
+<p class="date">“動画圧縮” (Video Compress) for iOS and Android / Last updated: November 29, 2026</p>
 
 <h3>Your videos</h3>
 <ul>
@@ -111,14 +116,18 @@
   <li>Android: the video you choose is copied into the app’s own cache for compressing. The temporary files are deleted when you choose the next video, when you discard a result, and the next time the app starts. In a batch, a video is copied only when its turn comes. A video received from another app through “Share” is copied when you open it in the app; if you do not, nothing is kept.</li>
   <li>Android: “Save” puts the compressed video into the device’s “Movies/VideoCompress” folder, where gallery apps can show it.</li>
   <li>Android: while a video is being compressed, the device shows a notification with the progress (it is what lets the compression continue after you leave the app). The app does not ask for permission to post notifications, so on Android 13 and later it appears in the list of running apps rather than among your notifications.</li>
+  <li>Photos are compressed entirely on your device as well. They are never uploaded to a server and are not given to the ad SDK.</li>
+  <li>The app’s copies of the photos you choose and the compressed photos are kept inside the app only while you work on them. They are deleted when you choose other photos, when you finish with the photos and go back to the home screen, and the next time the app starts.</li>
+  <li>“Save” for compressed photos adds them as new pictures (iOS: Photos; Android: the device’s “Pictures/VideoCompress” folder). Your original photos are neither changed nor deleted.</li>
 </ul>
 
 <h3>Access to Photos</h3>
 <ul>
-  <li>iOS: the app asks to add to Photos when you save a compressed video.</li>
+  <li>iOS: the app asks to add to Photos when you save a compressed video or compressed photos.</li>
+  <li>iOS: you choose the photos to compress in iOS’s photo picker. The app receives only the photos you choose there and asks for no permission to read Photos.</li>
   <li>iOS: the app asks to read Photos only when you use “Find large videos”: to list large videos, to compress the one you choose, and, if you ask for it, to delete the original after the compressed copy is saved (the system asks you to confirm before anything is deleted).</li>
-  <li>Android: you choose videos in Android’s photo picker or in the file browser. The app reads only the videos you choose there and asks for no permission to read your photos or videos.</li>
-  <li>Android: saving a video needs no permission (Android 10 and later). On Android 9 and earlier the app asks for permission to write to storage when you save.</li>
+  <li>Android: you choose videos in Android’s photo picker or in the file browser, and the photos to compress in the photo picker. The app reads only the videos and photos you choose there and asks for no permission to read your photos or videos.</li>
+  <li>Android: saving a video or photos needs no permission (Android 10 and later). On Android 9 and earlier the app asks for permission to write to storage when you save.</li>
   <li>The Android version has no “Find large videos” and never deletes an original video.</li>
   <li>Nothing from Photos or from the videos on your device is sent off your device.</li>
 </ul>
@@ -128,6 +137,7 @@
   <li>The app never reads your device’s location.</li>
   <li>iOS: when the original video carries the place where it was recorded, the compressed copy saved to Photos keeps it. Whether a file you share or save to Files includes it is up to the setting for including the location in compressed videos.</li>
   <li>Android: while the setting for including the location in compressed videos is off (as it is at first), the compressed video carries no recording place, neither the copy saved to the device nor a file you share. When it is on and the original carries the place, both the saved copy and a shared file include it.</li>
+  <li>Photos (iOS and Android): while the setting for including the location in compressed videos is off (as it is at first), the recording place (the GPS data in EXIF) is removed from compressed photos. When it is on and the original photo carries the place, it stays.</li>
 </ul>
 
 <h3>Ads (free version)</h3>
@@ -145,9 +155,9 @@
 <h3>Usage statistics (Firebase Analytics)</h3>
 <ul>
   <li>Android: to improve the app, it collects usage statistics with Google’s Firebase Analytics (Google Analytics for Firebase). The iOS version does not collect these statistics at present.</li>
-  <li>What is collected: how often a compression, a trim or a conversion to MP4 is started and how it ends (whether it succeeded or failed, and the kind of failure), which feature and which kind of setting was used (how the size was chosen, the format), how much smaller the result is (in percent), a rough range for the video’s length, how often a video is saved, and that Pro was bought and from which screen.</li>
+  <li>What is collected: how often a compression, a trim or a conversion to MP4 is started and how it ends (whether it succeeded or failed, and the kind of failure), which feature and which kind of setting was used (how the size was chosen, the format), how much smaller the result is (in percent), a rough range for the video’s length, how often a video is saved, how often photos are compressed, how many and at which size, that Pro was bought and from which screen, and, when the offer of Pro is shown, what you chose there (watch an ad, buy, or cancel) and whether the ad was watched to its end.</li>
   <li>What Firebase collects automatically: usage such as app launches, screens shown and time in use, an identifier assigned to each installation of the app (the app-instance ID), the Android advertising ID, information about the device and the app (such as the model, the OS version, the language and the app’s version), the approximate region derived from the IP address, and in-app purchase information (the product’s ID, name and price).</li>
-  <li>What is not collected: the videos themselves, file names, file paths, or any location (neither the device’s location nor the recording place stored in a video).</li>
+  <li>What is not collected: the videos or photos themselves, file names, file paths, or any location (neither the device’s location nor the recording place stored in a video).</li>
   <li>Purpose: to learn which features are used and how often, and where things fail, in order to improve the app.</li>
   <li>Retention: 14 months.</li>
   <li>Where the law requires consent (Europe, for example): these statistics are not collected until you consent, nor if you decline in the consent form. You can change your choice at any time in the app’s settings under “Ad privacy settings” (“Privacy settings” in Pro).</li>
